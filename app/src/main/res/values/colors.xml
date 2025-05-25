@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0A101E</color>
+    <color name="primary">#1A2639</color>
+    <color name="secondary">#6B1C1C</color>
+    <color name="text">#D4D7E0</color>
+    <color name="accent">#5A6A9A</color>
+    <color name="gold">#B89C5B</color>
+    <color name="progress_bg">#2D3748</color>
+    <color name="progress_fill">#4F9BE8</color>
+    <color name="error">#E63946</color>
+    <color name="success">#2A9D8F</color>
+</resources>

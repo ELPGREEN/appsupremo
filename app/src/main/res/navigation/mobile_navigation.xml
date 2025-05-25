@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.seuapp.tribunalsupremopopular.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.seuapp.tribunalsupremopopular.`DashboardFragment.kt`"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_notifications"
+            app:destination="@id/nav_notifications"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.seuapp.tribunalsupremopopular.NotificationsFragment"
+        android:label="Notifications">
+        <action
+            android:id="@+id/action_notifications_to_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+
+</navigation>

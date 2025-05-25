@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tribunal Supremo Popular</string>
+    <string name="enter_name">Digite seu nome</string>
+    <string name="start_game">Iniciar</string>
+    <string name="home_image_description">Balança da justiça</string>
+    <string name="case_title">Caso em Julgamento</string>
+    <string name="case_description">Descrição do caso</string>
+    <string name="case_evidences">Provas</string>
+    <string name="view_media">Ver Mídia</string>
+    <string name="reputation">Reputação</string>
+    <string name="orcamento_label">Orçamento do Tribunal</string>
+    <string name="apoio_popular_label">Apoio Popular</string>
+    <string name="respeito_institucional_label">Respeito Institucional</string>
+    <string name="influencia_politica_label">Influência Política</string>
+    <string name="relacao_imprensa_label">Relação com a Imprensa</string>
+    <string name="relacao_governo_label">Relação com o Governo</string>
+    <string name="relacao_ongs_label">Relação com ONGs</string>
+    <string name="media_headline">Manchete</string>
+    <string name="media_reactions">Reações da Mídia</string>
+    <string name="continue">Continuar</string>
+    <string name="home">Início</string>
+    <string name="dashboard">Casos</string>
+    <string name="notifications">Mídia</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Inclui SharedPreferences para salvar o progresso do jogo -->
+        <include domain="sharedpref" path="."/>
+        <!-- Inclui banco de dados local, se usado (ex.: Room) -->
+        <include domain="database" path="."/>
+        <!-- Exclui arquivos de cache -->
+        <exclude domain="file" path="cache/"/>
+        <!-- Exclui arquivos temporários -->
+        <exclude domain="file" path="tmp/"/>
+        <!-- Exclui logs de debug, se existirem -->
+        <exclude domain="file" path="logs/"/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- Mesmas regras para transferência entre dispositivos -->
+        <include domain="sharedpref" path="."/>
+        <include domain="database" path="."/>
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="file" path="tmp/"/>
+        <exclude domain="file" path="logs/"/>
+    </device-transfer>
+</data-extraction-rules>
