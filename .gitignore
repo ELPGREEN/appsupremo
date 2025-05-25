@@ -1,0 +1,97 @@
+# Arquivos gerados pelo Gradle
+.gradle/
+build/
+.gradle
+
+# Arquivos de configuração local
+local.properties
+
+# Arquivos de cache do Gradle
+.gradle/cache/
+.gradle/caches/
+
+# Arquivos gerados pelo Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/runConfigurations.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+
+# Arquivos de build intermediários
+*.apk
+*.ap_
+*.aab
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+
+# Arquivos de depuração
+*.log
+*.log.*
+log/
+logs/
+
+# Arquivos de cache do Android
+*.cache
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# Pastas de saída
+out/
+gen/
+bin/
+
+# Arquivos de configuração de usuário
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de dependências baixadas
+libs/
+dependencies/
+
+# Arquivos de testes locais
+*.test
+*.tst
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Pastas de ferramentas externas
+captures/
+external/
+
+# Arquivos de configuração de CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+
+# Arquivos de chaves de assinatura
+*.jks
+*.keystore
+
+# Arquivos de ambiente sensíveis
+.env
+*.env.*
+
+# Pastas de cache do emulator ou dispositivos
+.emulator_console_auth_token
+.avd/
+
+# Ignorar arquivos de documentação gerados
+docs/_build/
